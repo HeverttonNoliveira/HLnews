@@ -3,3 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+.formulario{
+    display: none;
+    margin: auto;
+    text-align: center;
+    background-color: aqua;
+}
+.active{
+    display: flex;
+}

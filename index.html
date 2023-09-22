@@ -12,7 +12,7 @@
             <div class="menuLateral">
                 <img src="img/logo.png" alt="logo">
                 <p>Inicio</p>
-                <p>Novo Artigo</p>
+                <button class="buttonArticle" onclick="OpenForm()">Novo artigo</button>
                 <p>Filtro</p>
                 <img src="img/icon-figma.png" alt="">
                 <img src="img/icon-html.jpg" alt="">
@@ -22,10 +22,18 @@
                 <img src="img/icon-react.png" alt="">
                 <img src="img/icon-nodeJs.png" alt="">
             </div>
-            
         </nav>
     </header>
     <main>
+        <div class="formulario">
+            <form action="#">
+            Nome do artigo:
+            <input type="text">
+            <input type="button" value="Enviar" onclick="CloseForm()">
+            <input type="button" value="Fechar" onclick="CloseForm()">
+        </form>
+        </div>
+        
     <h1>Artigos</h1>
     <div class="card">
         <div class="cardTop">
